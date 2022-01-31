@@ -43,11 +43,11 @@ const ItemActivity = () => {
             </div>
           </div>
           <div className={style.tableHeader}>
-            <div className={`${style.tableHeader} flex-[2]`}>Event</div>
-            <div className={`${style.tableHeader} flex-[2]`}>Price</div>
-            <div className={`${style.tableHeader} flex-[3]`}>From</div>
-            <div className={`${style.tableHeader} flex-[3]`}>To</div>
-            <div className={`${style.tableHeader} flex-[2]`}>Date</div>
+            <div className={`flex-[2]`}>Event</div>
+            <div className={`flex-[2]`}>Price</div>
+            <div className={`flex-[3]`}>From</div>
+            <div className={`flex-[3]`}>To</div>
+            <div className={`flex-[2]`}>Date</div>
           </div>
           {dummyEvents.map((event:any, id:any) => (
             <EventItem key={id} event={event} />

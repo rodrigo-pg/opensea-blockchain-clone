@@ -77,7 +77,6 @@ const Nft = () => {
               />
             </div>
           </div>
-          <ItemActivity />
         </div>
       </div>
     </div>
